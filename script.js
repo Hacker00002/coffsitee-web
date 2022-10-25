@@ -1,3 +1,3 @@
-let message = prompt('Like our coffee website')
+// let message = prompt('Like our coffee website')
 
-console.log(message)
+// console.log(message)

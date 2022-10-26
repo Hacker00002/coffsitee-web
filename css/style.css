@@ -422,9 +422,7 @@ body{
 }
 
 .footer-con{
-    background: #2C343E;
-
-    padding: 50px 85px;
+    padding: 50px 75px;
 
     display: flex;
     align-items: center;
@@ -524,17 +522,14 @@ body{
     list-style-type: none;
 }
 
-.footer{
-    margin-bottom: 135px;
-}
-
-.menu-icon{
-    /* display: none; */
-}
-
 .bx{
     font-size: 30px;
     color: #333D4B;
+}
+
+.footer{
+    width: 100%;
+    background: #2C343E;
 }
 
 @media only screen and (max-width: 1115px){
@@ -645,6 +640,88 @@ body{
         line-height: 25px;
         width: 344px;
     }
+
+    @media only screen and (max-width: 1024px){
+        .line-link{
+            display: none;
+        }
+        .work{
+            margin-top: 145px;
+        }
+        .work-text{
+            margin-left: 20px;
+        }
+        .button2{
+            margin-left: 15px;
+        }
+        .cards-number{
+            display: flex;
+            justify-content: center;
+        }
+        .cards-paragraph{
+            width: 223px;
+        }
+        .cards-pr{
+            width: 223px;
+        }
+        .cards-number{
+            gap: 20px;
+        }
+        .footer-con{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .footer-img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .footer-list{
+            margin-top: -80px;
+            margin-bottom: 65px;
+        }
+        .footer{
+            margin-bottom: 0;
+        }
+    }
+
+@media only screen and (max-width:730px){
+    .work{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cards-number{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .button2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0;
+    }
+    .all-cards-item{
+        text-align: center;
+    }
+    .work-text{
+        text-align: center;
+    }
+    .number{
+        margin-bottom: 20px;
+    }
+    .cards-pr{
+        margin-bottom: 20px;
+    }
+}
 
 @media only screen and (max-width:680px){
     .collection{
@@ -774,6 +851,12 @@ body{
     }
 }
 
+@media only screen and (max-width:466px){
+    .footer-con{
+        padding: 50px 70px;
+    }
+}
+
 @media only screen and (max-width:460px){
     .best-card-all{
         width: 360px;
@@ -786,6 +869,20 @@ body{
     }
     .best-card-all{
         width: 350px;
+    }
+    .footer-con{
+        padding: 50px 60px;
+    }
+}
+
+@media only screen and (max-width:410px){
+    .footer-con{
+        padding: 50px 50px;
+    }
+    .footer-list{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
     }
 }
 
@@ -822,5 +919,3 @@ body{
         margin-left: 14px;
     }
 }
-
-

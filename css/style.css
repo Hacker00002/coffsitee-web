@@ -425,6 +425,7 @@ body{
     padding: 50px 75px;
 
     display: flex;
+    
     align-items: center;
     justify-content: space-between;
 }

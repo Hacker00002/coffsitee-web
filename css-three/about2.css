@@ -920,3 +920,12 @@ hr{
 .footer{
     margin-bottom: 135px;
 }
+
+.bx{
+    font-size: 30px;
+    color: #333D4B;
+}
+
+@media only screen and(max-width:1248px){
+
+}
